@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  AcciontvUpload
+
+  Created by 525 on 6/9/17.
+  Copyright © 2017 525. All rights reserved.
+*/
+
+"SELECT CATEGORY" = "SELECCIONE CATEGORÍA";
+"SELECT SUBCATEGORY" = "SELECCIONE SUBCATEGORÍA";
+"SELECT ATTRIBUTES" = "SELECCIONE ATRIBUTOS";
+"CATEGORY" = "CATEGORÍA";
+"SUBCATEGORY" = "SUBCATEGORÍA";
+"SELECT" = "SELECCIONE";
+"CLOSE SESSION" = "CERRAR SESIÓN";
+"ALERT" = "ALERTA";
+"The address you typed already exists" = "La dirección que escribiste ya existe";
+"Uploaded Location" = "Locación subida";
+"The location was successfully uploaded" = "La Locación fue subida con éxito";
+"Location Added" = "Locación en espera";
+"The location will be uploaded when you are online" = "La locación será subida cuando tengas internet";
+"ARE YOU SURE?" = "¿ESTÁS SEGURO?";
+"This location's information will be erased" = "La información de esta locación será borrada";
+"Cancel" = "Cancelar";
+"CANCEL" = "CANCELAR";
+"YES" = "SÍ";
+"Yes" = "Sí";
+"UPLOADED SUCCESSFULLY" = "CARGA CON ÉXITO";
+"This location will be only deleted from the list, would you like to proceed?" = "Esta locación será eliminada de esta lista, quieres continuar?";
+"NO ACCESS" = "SIN PERMISO";
+"You have no access to this module" = "No tienes acceso a este módulo";
+"UPLOADING LIST" = "LOCACIONES CARGADAS";
+"DELETE ALL UPLOADED CONTENT" = "BORRAR TODO EL CONTENIDO";
+"Do you want to delete all locations from this list?" = "¿Quieres borrar todas las locaciones de esta lista?";
+"DELETE ALL UPLOADED LOCATIONS" = "BORRAR TODAS LAS LOCACIONES PUBLICADAS";
+"Delete from List" = "Borrar de la lista";
+"DELETE LOCATION" = "BORRAR LOCACIÓN";
+"PHOTO LIMIT" = "LÍMITE DE FOTOS";
+"You've reached the maximum limit of photos: 60" = "El límite máximo de fotos es de 60";
+"LOCATIONS Would Like To Access the Camera" = "LOCACIONES Quiere Tener Acceso a la Cámara";
+"Please grant permission to use the Camera so that you can take photos." = "Por favor de permiso de usar la Cámara para que pueda tomar fotos.";
+"LOCATIONS Would Like To Access the Photo Libary" = "LOCACIONES Quiere Tener Acceso a la Librería de Fotos";
+"LOCATIONS would like to access your Library so that you can upload locations with photos." = "LOCACIONES Quiere tener acceso a su Libería de Fotos para poder cargar locaciones con fotos.";
+"Please grant permission to use the Library so that you can upload Locations with photos" = "Por favor dé permiso a la Libería para que pueda cargar Locaciones con fotos";
+"Open Settings" = "Abrir Ajustes";
+"Allow" = "Permitir";
+"Not Now" = "No Ahora";
+"Please connect to internet first. LOCATIONS needs to download some data before uploading locations." = "Por favor conectese a internet primero. LOCACIONES necesita descargar información antes de poder subir locaciones.";

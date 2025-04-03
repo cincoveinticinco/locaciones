@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "if_icon-ios7-arrow-down_211687 (2).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "if_icon-ios7-arrow-down_211687 (1).png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "if_icon-ios7-arrow-down_211687.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto"
+  }
+}

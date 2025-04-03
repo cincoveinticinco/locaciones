@@ -1,0 +1,372 @@
+
+/* Class = "UILabel"; text = "CATEGORIES"; ObjectID = "0Nx-Ah-M3w"; */
+"0Nx-Ah-M3w.text" = "CATEGORIAS";
+
+/* Class = "UILabel"; text = "AVAILABLE TO:"; ObjectID = "0Xf-4c-YIA"; */
+"0Xf-4c-YIA.text" = "DISPONIBLE HASTA:";
+
+/* Class = "UITextField"; placeholder = "SELECT DATE"; ObjectID = "11m-2U-aoE"; */
+"11m-2U-aoE.placeholder" = "SELECCIONAR HORA";
+
+/* Class = "UILabel"; text = "PRIMARY PHONE:"; ObjectID = "1RA-Z4-INc"; */
+"1RA-Z4-INc.text" = "TELÉFONO PRINCIPAL*:";
+
+/* Class = "UIButton"; normalTitle = "CREATE LOCATION"; ObjectID = "1et-eZ-DYB"; */
+"1et-eZ-DYB.normalTitle" = "CREAR LOCACIÓN";
+
+/* Class = "UISearchBar"; placeholder = "SEARCH"; ObjectID = "1lO-e5-Nu7"; */
+"1lO-e5-Nu7.placeholder" = "BUSCAR";
+
+/* Class = "UILabel"; text = "SUBCATEGORIES"; ObjectID = "23J-BV-hmP"; */
+"23J-BV-hmP.text" = "SUBCATEGORIAS";
+
+/* Class = "UILabel"; text = "ROUTE:"; ObjectID = "2nU-Xn-Dqu"; */
+"2nU-Xn-Dqu.text" = "RUTA:";
+
+/* Class = "UILabel"; text = "ADD CONTACT"; ObjectID = "3Fe-WF-cwb"; */
+"3Fe-WF-cwb.text" = "AGREGAR CONTACTO";
+
+/* Class = "UIButton"; normalTitle = "UPLOADING LIST"; ObjectID = "3Oe-rC-KPC"; */
+"3Oe-rC-KPC.normalTitle" = "LISTA DE LOCACIONES SUBIENDO";
+
+/* Class = "UILabel"; text = "NAME:"; ObjectID = "3bC-zq-YCV"; */
+"3bC-zq-YCV.text" = "NOMBRE*:";
+
+/* Class = "UIButton"; normalTitle = "ADD PARKING"; ObjectID = "3oB-6N-skU"; */
+"3oB-6N-skU.normalTitle" = "AGREGAR ESTACIONAMIENTO";
+
+/* Class = "UITextField"; placeholder = "CHOOSE TYPE"; ObjectID = "4DM-Jy-Vhh"; */
+"4DM-Jy-Vhh.placeholder" = "ELEGIR TIPO";
+
+/* Class = "UILabel"; text = "PRODUCTIONS"; ObjectID = "4zA-QN-Tis"; */
+"4zA-QN-Tis.text" = "PRODUCCIONES";
+
+/* Class = "UILabel"; text = "RATE TYPE:"; ObjectID = "58d-5j-ydC"; */
+"58d-5j-ydC.text" = "TIPO DE COSTO:";
+
+/* Class = "UIButton"; normalTitle = "ADD OTHER CONTACT"; ObjectID = "5DS-Ck-IQG"; */
+"5DS-Ck-IQG.normalTitle" = "AGREGAR OTRO CONTACTO";
+
+/* Class = "UILabel"; text = "STATE:"; ObjectID = "5NL-3R-Zrl"; */
+"5NL-3R-Zrl.text" = "ESTADO*:";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "5m1-8K-ThJ"; */
+"5m1-8K-ThJ.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "5sH-2N-UNw"; */
+"5sH-2N-UNw.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "6X8-nR-VfY"; */
+"6X8-nR-VfY.text" = "Nombre";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "6nY-Tg-4v1"; */
+"6nY-Tg-4v1.normalTitle" = "CREAR";
+
+/* Class = "UILabel"; text = "RATE FROM:"; ObjectID = "85Z-mQ-HpG"; */
+"85Z-mQ-HpG.text" = "PRECIO DESDE:";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "8Um-ep-br1"; */
+"8Um-ep-br1.normalTitle" = "Listo";
+
+/* Class = "UILabel"; text = "UNIT:"; ObjectID = "8W4-wR-H35"; */
+"8W4-wR-H35.text" = "UNIDAD:";
+
+/* Class = "UIButton"; disabledTitle = "OK"; ObjectID = "ATk-Jw-JwD"; */
+"ATk-Jw-JwD.disabledTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "ATk-Jw-JwD"; */
+"ATk-Jw-JwD.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "ADD PRODUCTION"; ObjectID = "B11-Jm-YVy"; */
+"B11-Jm-YVy.normalTitle" = "AGREGAR PRODUCCIÓN";
+
+/* Class = "UISearchBar"; placeholder = "Filter Parking"; ObjectID = "BP6-D7-1Om"; */
+"BP6-D7-1Om.placeholder" = "FILTRAR ESTACIONAMIENTO";
+
+/* Class = "UILabel"; text = "ATTRIBUTES"; ObjectID = "BcV-ov-Fhn"; */
+"BcV-ov-Fhn.text" = "ATRIBUTOS";
+
+/* Class = "UITextField"; placeholder = "PHONE NUMBER"; ObjectID = "Ch1-Oc-WYA"; */
+"Ch1-Oc-WYA.placeholder" = "NÚMERO TELEFÓNICO";
+
+/* Class = "UITextField"; placeholder = "LAST NAME"; ObjectID = "ChY-ht-7gl"; */
+"ChY-ht-7gl.placeholder" = "APELLIDO";
+
+/* Class = "UITextField"; placeholder = "EMAIL"; ObjectID = "Con-en-lRb"; */
+"Con-en-lRb.placeholder" = "EMAIL";
+
+/* Class = "UILabel"; text = "LAST NAME:"; ObjectID = "DLr-2J-WDq"; */
+"DLr-2J-WDq.text" = "APELLIDO*:";
+
+/* Class = "UILabel"; text = "ASSIGNED PRODUCTION"; ObjectID = "DYT-BU-ZkQ"; */
+"DYT-BU-ZkQ.text" = "PRODUCCIÓN ASIGNADA";
+
+/* Class = "UIButton"; normalTitle = "Continue ▶︎"; ObjectID = "EU8-Hv-jcp"; */
+"EU8-Hv-jcp.normalTitle" = "Continuar ▶︎";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Evd-ez-dfZ"; */
+"Evd-ez-dfZ.text" = "Nombre";
+
+/* Class = "UILabel"; text = "INTERIOR/EXTERIOR:"; ObjectID = "FDA-cW-B3A"; */
+"FDA-cW-B3A.text" = "INTERIOR/EXTERIOR:";
+
+/* Class = "UILabel"; text = "AVAILABILITY SCHEDULE"; ObjectID = "FFl-9E-tgj"; */
+"FFl-9E-tgj.text" = "HORARIO DE DISPONIBILIDAD";
+
+/* Class = "UILabel"; text = "664 Dickens Road, Lilburn, Georgia 30047"; ObjectID = "HZE-ur-xcb"; */
+"HZE-ur-xcb.text" = "664 Dickens Road, Lilburn, Georgia 30047";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "IFB-EI-MjM"; */
+"IFB-EI-MjM.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "IK2-z7-KSF"; */
+"IK2-z7-KSF.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "PARKING"; ObjectID = "Ibd-P3-CdC"; */
+"Ibd-P3-CdC.text" = "PARKING";
+
+/* Class = "UIButton"; normalTitle = "ADD ATTRIBUTES"; ObjectID = "KIE-kT-kRz"; */
+"KIE-kT-kRz.normalTitle" = "AGREGAR ATRIBUTOS";
+
+/* Class = "UILabel"; text = "UNAVAILABLE FOR PERSONAL VEHICLES"; ObjectID = "LCi-fN-JFR"; */
+"LCi-fN-JFR.text" = "NO DISPONIBLE PARA VEHÍCULOS PERSONALES";
+
+/* Class = "UILabel"; text = "COUNTY:"; ObjectID = "LNp-Ja-GLE"; */
+"LNp-Ja-GLE.text" = "CONDADO:";
+
+/* Class = "UILabel"; text = "CENTER:"; ObjectID = "LTW-M9-Gdy"; */
+"LTW-M9-Gdy.text" = "CENTRO*:";
+
+/* Class = "UILabel"; text = "OTHER PHONE:"; ObjectID = "LeO-mD-xVI"; */
+"LeO-mD-xVI.text" = "OTRO TELÉFONO:";
+
+/* Class = "UIButton"; normalTitle = "SELECT DAYS"; ObjectID = "M3s-lX-3DU"; */
+"M3s-lX-3DU.normalTitle" = "SELECCIONE DÍAS";
+
+/* Class = "UITextField"; placeholder = "CHOOSE"; ObjectID = "Mzg-dq-eZP"; */
+"Mzg-dq-eZP.placeholder" = "ELEGIR";
+
+/* Class = "UILabel"; text = "ADDRESS:"; ObjectID = "N9b-Kt-OQg"; */
+"N9b-Kt-OQg.text" = "DIRECCIÓN*:";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "NkU-MR-Rob"; */
+"NkU-MR-Rob.normalTitle" = "OK";
+
+/* Class = "UITextField"; placeholder = "SELECT DATE"; ObjectID = "Nuc-me-Mq4"; */
+"Nuc-me-Mq4.placeholder" = "SELECCIONE FECHA";
+
+/* Class = "UITextField"; placeholder = "NAME"; ObjectID = "NvP-IJ-JbB"; */
+"NvP-IJ-JbB.placeholder" = "NOMBRE";
+
+/* Class = "UITextField"; placeholder = "PHONE NUMBER"; ObjectID = "P3w-K0-Xpc"; */
+"P3w-K0-Xpc.placeholder" = "NÚMERO TELEFÓNICO";
+
+/* Class = "UILabel"; text = "664 Dickens Road, Lilburn, Georgia 30047"; ObjectID = "PL1-CH-v0E"; */
+"PL1-CH-v0E.text" = "664 Dickens Road, Lilburn, Georgia 30047";
+
+/* Class = "UILabel"; text = "CREATE LOCATION"; ObjectID = "Ph2-jl-A9u"; */
+"Ph2-jl-A9u.text" = "CREAR LOCACIÓN";
+
+/* Class = "UILabel"; text = "DAY/NIGHT:"; ObjectID = "R5B-5o-sJU"; */
+"R5B-5o-sJU.text" = "DÍA/NOCHE:";
+
+/* Class = "UILabel"; text = "CURRENCY:"; ObjectID = "RBh-3k-vw2"; */
+"RBh-3k-vw2.text" = "MONEDA:";
+
+/* Class = "UILabel"; text = "LAST NAME:"; ObjectID = "Ssp-Vw-niV"; */
+"Ssp-Vw-niV.text" = "APPELLIDO:";
+
+/* Class = "UITextField"; placeholder = "CHOOSE TIME"; ObjectID = "TV0-ib-lNq"; */
+"TV0-ib-lNq.placeholder" = "ELEGIR HORA";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "TgL-7s-ce2"; */
+"TgL-7s-ce2.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "Tt0-aG-k4k"; */
+"Tt0-aG-k4k.normalTitle" = "ENTRAR";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "UUG-Iq-p9d"; */
+"UUG-Iq-p9d.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UIButton"; normalTitle = "ADD MORE INFO"; ObjectID = "V2I-BP-Aw3"; */
+"V2I-BP-Aw3.normalTitle" = "AGREGAR MÁS INFORMACIÓN";
+
+/* Class = "UITextField"; placeholder = "LAST NAME"; ObjectID = "V3y-sn-yYq"; */
+"V3y-sn-yYq.placeholder" = "APELLIDO";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "VhL-AX-yD8"; */
+"VhL-AX-yD8.normalTitle" = "GUARDAR";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "WJa-Dg-z8F"; */
+"WJa-Dg-z8F.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UILabel"; text = "ATTRIBUTES"; ObjectID = "WLS-Ow-YWi"; */
+"WLS-Ow-YWi.text" = "ATRIBUTOS";
+
+/* Class = "UILabel"; text = "OTHER CONTACT"; ObjectID = "Wfc-sU-2yn"; */
+"Wfc-sU-2yn.text" = "OTRO CONTACTO";
+
+/* Class = "UITextField"; placeholder = "EMAIL"; ObjectID = "WrB-qz-foC"; */
+"WrB-qz-foC.placeholder" = "EMAIL";
+
+/* Class = "UILabel"; text = "FIRST NAME:"; ObjectID = "XbN-WD-Sue"; */
+"XbN-WD-Sue.text" = "NOMBRE*:";
+
+/* Class = "UILabel"; text = "PRIMARY PHONE:"; ObjectID = "Z80-0N-XqU"; */
+"Z80-0N-XqU.text" = "TELÉFONO PRINCIPAL:*";
+
+/* Class = "UILabel"; text = "CATEGORY:"; ObjectID = "ZPu-da-abD"; */
+"ZPu-da-abD.text" = "CATEGORÍA*:";
+
+/* Class = "UILabel"; text = "ADD CONTACT"; ObjectID = "ZcQ-TL-UXp"; */
+"ZcQ-TL-UXp.text" = "AGREGAR CONTACTO";
+
+/* Class = "UITextField"; placeholder = "PHONE NUMBER"; ObjectID = "ZmZ-Y3-D4e"; */
+"ZmZ-Y3-D4e.placeholder" = "NÚMERO TELEFÓNICO";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aFw-8m-4Qs"; */
+"aFw-8m-4Qs.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "aRb-C0-oil"; */
+"aRb-C0-oil.normalTitle" = "GUARDAR";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "aT3-Db-TcE"; */
+"aT3-Db-TcE.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "azE-Di-iuD"; */
+"azE-Di-iuD.title" = "Cancelar";
+
+/* Class = "UILabel"; text = "PARKING"; ObjectID = "b4Y-U8-mRr"; */
+"b4Y-U8-mRr.text" = "ESTACIONAMIENTO";
+
+/* Class = "UILabel"; text = "RATE TO:"; ObjectID = "b5j-LE-lpg"; */
+"b5j-LE-lpg.text" = "COSTO HASTA:";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "b7u-nj-23D"; */
+"b7u-nj-23D.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UILabel"; text = "CITY:"; ObjectID = "cKq-G2-aWk"; */
+"cKq-G2-aWk.text" = "CIUDAD*:";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "dBc-1S-nZg"; */
+"dBc-1S-nZg.title" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "CHOOSE CENTER"; ObjectID = "dZn-Ck-uI3"; */
+"dZn-Ck-uI3.placeholder" = "ELEGIR CENTRO";
+
+/* Class = "UISearchBar"; placeholder = "Filter Days"; ObjectID = "duJ-Ga-PhT"; */
+"duJ-Ga-PhT.placeholder" = "Filtrar Días";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "egs-Ze-ef8"; */
+"egs-Ze-ef8.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "OTHER PHONE:"; ObjectID = "fbe-Lt-oLV"; */
+"fbe-Lt-oLV.text" = "OTRO TELÉFONO:";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "g8c-3x-h93"; */
+"g8c-3x-h93.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "gvk-lp-deT"; */
+"gvk-lp-deT.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "h7U-G0-6zh"; */
+"h7U-G0-6zh.title" = "CANCELAR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hhi-ew-XZ5"; */
+"hhi-ew-XZ5.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hpj-7e-GTs"; */
+"hpj-7e-GTs.text" = "Título";
+
+/* Class = "UITextField"; placeholder = "CHOOSE"; ObjectID = "hrd-AO-ImD"; */
+"hrd-AO-ImD.placeholder" = "ELEGIR";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "ih1-tg-DZG"; */
+"ih1-tg-DZG.title" = "CANCELAR";
+
+/* Class = "UILabel"; text = "FIRST NAME:"; ObjectID = "jaI-mS-AB4"; */
+"jaI-mS-AB4.text" = "NOMBRE*:";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "js0-vJ-CBp"; */
+"js0-vJ-CBp.title" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "INSERT TEXT"; ObjectID = "jw4-KA-BVA"; */
+"jw4-KA-BVA.placeholder" = "INSERTAR TEXTO";
+
+/* Class = "UILabel"; text = "COUNTRY:"; ObjectID = "kbA-T2-wa8"; */
+"kbA-T2-wa8.text" = "PAÍS*:";
+
+/* Class = "UITextField"; placeholder = "SELECT CURRENCY"; ObjectID = "khH-rx-HkD"; */
+"khH-rx-HkD.placeholder" = "SELECCIONAR MONEDA";
+
+/* Class = "UISearchBar"; placeholder = "SEARCH"; ObjectID = "ktL-6p-cSc"; */
+"ktL-6p-cSc.placeholder" = "BUSCAR";
+
+/* Class = "UILabel"; text = "664 Dickens Road, Lilburn, Georgia 30047"; ObjectID = "lOK-PZ-4Zk"; */
+"lOK-PZ-4Zk.text" = "664 Dickens Road, Lilburn, Georgia 30047";
+
+/* Class = "UILabel"; text = "RATES AND USES"; ObjectID = "mBX-Cj-mha"; */
+"mBX-Cj-mha.text" = "COSTOS Y USOS";
+
+/* Class = "UILabel"; text = "SUBCATEGORY:"; ObjectID = "mOj-kK-3G8"; */
+"mOj-kK-3G8.text" = "SUBCATEGORIA:";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "mvS-AU-YQG"; */
+"mvS-AU-YQG.text" = "Nombre";
+
+/* Class = "UILabel"; text = "POSTAL CODE:"; ObjectID = "nTX-F1-ATy"; */
+"nTX-F1-ATy.text" = "CÓDIGO POSTAL:";
+
+/* Class = "UITextField"; placeholder = "NAME"; ObjectID = "nav-Ug-Bb6"; */
+"nav-Ug-Bb6.placeholder" = "NOMBRE";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "osG-WO-Y5m"; */
+"osG-WO-Y5m.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "DESCRIPTION:"; ObjectID = "pP2-k4-f2y"; */
+"pP2-k4-f2y.text" = "DESCRIPCIÓN:";
+
+/* Class = "UITextField"; placeholder = "SELECT RATE"; ObjectID = "pcO-NT-OZe"; */
+"pcO-NT-OZe.placeholder" = "SELECCIONAR COSTO";
+
+/* Class = "UITextField"; placeholder = "PHONE NUMBER"; ObjectID = "pdQ-5d-qvV"; */
+"pdQ-5d-qvV.placeholder" = "NÚMERO TELEFÓNICO";
+
+/* Class = "UILabel"; text = "OT PER HOUR:"; ObjectID = "qFN-Cd-bwl"; */
+"qFN-Cd-bwl.text" = "OT POR HORA:";
+
+/* Class = "UILabel"; text = "Production"; ObjectID = "rnW-GV-HgO"; */
+"rnW-GV-HgO.text" = "Producción";
+
+/* Class = "UILabel"; text = "LOCATION CONTACT"; ObjectID = "rsu-1V-fK1"; */
+"rsu-1V-fK1.text" = "CONTACTO DE LOCACIÓN";
+
+/* Class = "UISearchBar"; placeholder = "SEARCH"; ObjectID = "s2n-bm-qZo"; */
+"s2n-bm-qZo.placeholder" = "BUSCAR";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "sPw-fp-b97"; */
+"sPw-fp-b97.normalTitle" = "GUARDAR";
+
+/* Class = "UILabel"; text = "AVAILABLE FROM:"; ObjectID = "t6U-Ji-NXh"; */
+"t6U-Ji-NXh.text" = "DISPONIBLE DESDE:";
+
+/* Class = "UILabel"; text = "LOCATIONS"; ObjectID = "tmD-xj-TXC"; */
+"tmD-xj-TXC.text" = "LOCACIONES";
+
+/* Class = "UILabel"; text = "SCHEDULE"; ObjectID = "ubN-Ot-ufW"; */
+"ubN-Ot-ufW.text" = "HORARIO";
+
+/* Class = "UILabel"; text = "EMAIL:"; ObjectID = "wVL-iS-2Qm"; */
+"wVL-iS-2Qm.text" = "EMAIL:";
+
+/* Class = "UISearchBar"; placeholder = "SEARCH"; ObjectID = "xk5-ya-A4z"; */
+"xk5-ya-A4z.placeholder" = "BUSCAR";
+
+/* Class = "UILabel"; text = "EMAIL:"; ObjectID = "yBN-TV-gae"; */
+"yBN-TV-gae.text" = "EMAIL:";
+
+/* Class = "UILabel"; text = "STORY LOCATION NAME:"; ObjectID = "yQZ-z0-9pN"; */
+"yQZ-z0-9pN.text" = "NOMBRE DE HISTORIA DE LOCACIÓN:";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "zif-Xs-dXS"; */
+"zif-Xs-dXS.title" = "Cancelar";

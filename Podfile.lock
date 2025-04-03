@@ -1,0 +1,71 @@
+PODS:
+  - AWSCore (2.16.0)
+  - AWSS3 (2.16.0):
+    - AWSCore (= 2.16.0)
+  - BSGridCollectionViewLayout (1.2.5)
+  - BSImagePicker (2.8.0):
+    - BSGridCollectionViewLayout (~> 1.2.0)
+    - BSImageView (~> 1.0.0)
+  - BSImageView (1.0.3)
+  - ImagePicker (3.1.0)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (5.0.1)
+  - SwipeCellKit (2.4.3)
+  - TaskQueue (1.1.1)
+
+DEPENDENCIES:
+  - AWSS3 (~> 2.16.0)
+  - BSImagePicker (= 2.8)
+  - ImagePicker (= 3.1.0)
+  - ReachabilitySwift
+  - SQLite.swift (= 0.11.5)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON
+  - SwipeCellKit (= 2.4.3)
+  - TaskQueue
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSS3
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
+    - ImagePicker
+    - ReachabilitySwift
+    - SQLite.swift
+    - SwiftyJSON
+    - SwipeCellKit
+    - TaskQueue
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: d370353b7a0ce758a53b189c81e485dcd53c99a4
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  AWSCore: 439de29e3423c637a0c475f9ea329262fd2acc67
+  AWSS3: 6df833615e2b2f8313b585e2090e80a3e97c550f
+  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
+  BSImagePicker: b06623bd22f1941bbb04168426b95d38017e3081
+  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
+  ImagePicker: db1fd7626337b2577c523bef5f499bbbe5a37079
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwipeCellKit: cee9906e6d3a36e22ad1a852fba7f8fa0839d113
+  TaskQueue: 53a3cdaf817d9ce3cd50837ff6610aeb7b968997
+
+PODFILE CHECKSUM: 36015b910065f8e3a0ec14557cc8b1529c832210
+
+COCOAPODS: 1.13.0
