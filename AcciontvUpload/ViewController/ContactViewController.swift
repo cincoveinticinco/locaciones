@@ -54,13 +54,13 @@ class ContactViewController: UIViewController, UITextFieldDelegate {
         
         loadFields()
         
-        validator.registerField(firstNameTextField, rules: [RequiredRule()])
-        validator.registerField(lastNameTextField, rules: [RequiredRule()])
-        validator.registerField(primaryPhoneTextField, rules: [RequiredRule(), PhoneNumberRule()])
+        validator.registerField(firstNameTextField, rules: [])
+        validator.registerField(lastNameTextField, rules: [])
+        validator.registerField(primaryPhoneTextField, rules: [PhoneNumberRule()])
         //validator.registerField(otherPhoneTextField!, rules: [PhoneNumberRule()])
         validator.registerField(emailTextField, rules: [EmailRule()])
         
-        saveContactButton.isEnabled = false
+        saveContactButton.isEnabled = true
         self.hideKeyboardWhenTappedAround()
     }
 
@@ -107,16 +107,6 @@ class ContactViewController: UIViewController, UITextFieldDelegate {
                 field.leftView?.contentMode = .scaleAspectFit
                 field.leftViewMode = .unlessEditing
             }
-        }
-        
-        
-        guard
-            let firstn = firstNameTextField.text, !firstn.isEmpty,
-            let lastn = lastNameTextField.text, !lastn.isEmpty,
-            let primaryp = primaryPhoneTextField.text, !primaryp.isEmpty
-            else {
-                saveContactButton.isEnabled = false
-                return
         }
         
         saveContactButton.isEnabled = true
