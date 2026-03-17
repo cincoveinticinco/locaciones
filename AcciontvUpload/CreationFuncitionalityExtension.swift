@@ -476,7 +476,7 @@ extension UIViewController {
     }
     
     struct UrlsViewController {
-        static let process_location =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/location_modules/process_location"
+        static let process_location =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/location_modules/process_location"
     }
 }
 

@@ -467,7 +467,7 @@ class S3 {
     }
     
     struct Urls {
-        static let create =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/location_modules/create_images"
+        static let create =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/location_modules/create_images"
         static let signImage =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/continuities/getPresignedUrlService"
     }
 }

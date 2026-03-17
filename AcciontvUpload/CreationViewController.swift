@@ -97,7 +97,7 @@ class CreationViewController: UIViewController, UITextFieldDelegate, UIPickerVie
             if ReachabilityTwo.isConnectedToNetwork() {
                 print(" GETTING info_location from Server acciontv.com")
                 
-                var request = URLRequest(url: URL(string: "\(serverURL!)/location_modules/info_location")!)
+                var request = URLRequest(url: URL(string: "\(serverURL!)/api/location_modules/info_location")!)
                 request.httpMethod = "POST"
                 let postString = "session_id=\(token!)"
                 request.httpBody = postString.data(using: .utf8)
@@ -1488,6 +1488,6 @@ extension CreationViewController {
     }
     
     struct Urls {
-        static let create =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/location_modules/assign_location_productions"
+        static let create =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/location_modules/assign_location_productions"
     }
 }

@@ -192,7 +192,7 @@ extension LoginWebViewController {
     }
     
     struct Urls {
-        static let Login =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/saml/init"
+        static let Login =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/admin/saml/init"
     }
 }
 
