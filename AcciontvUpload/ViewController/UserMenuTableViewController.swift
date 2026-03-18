@@ -78,7 +78,7 @@ class UserMenuTableViewController: UITableViewController {
         }
         
         let serverURL = UserDefaults.standard.string(forKey: "server_url")
-        let url = URL(string: "\(serverURL!)/api/admin/saml/logout/1/\(token!)")!
+        let url = URL(string: "\(serverURL!)/api/admin/saml/logout/\(token!)")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
