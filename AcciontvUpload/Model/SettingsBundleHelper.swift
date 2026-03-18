@@ -14,6 +14,12 @@ class SettingsBundleHelper {
         if (UserDefaults.standard.string(forKey: SettingsBundleKeys.ServerURL) == nil) {
             UserDefaults.standard.set("https://prod.acciontv.com", forKey: SettingsBundleKeys.ServerURL)
         }
+        // Migrate old values that had /api/ suffix — strip it so URLs aren't doubled
+        if var stored = UserDefaults.standard.string(forKey: SettingsBundleKeys.ServerURL),
+           stored.hasSuffix("/api/") {
+            stored = String(stored.dropLast("/api/".count))
+            UserDefaults.standard.set(stored, forKey: SettingsBundleKeys.ServerURL)
+        }
 //        if UserDefaults.standard.bool(forKey: SettingsBundleKeys.ServerURL) {
 //            UserDefaults.standard.set(false, forKey: SettingsBundleKeys.ServerURL)
 //            let appDomain: String? = Bundle.main.bundleIdentifier
