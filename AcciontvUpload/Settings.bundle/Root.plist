@@ -8,21 +8,29 @@
 	<array>
 		<dict>
 			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
+			<string>PSMultiValueSpecifier</string>
 			<key>Title</key>
-			<string>Server URL</string>
+			<string>Environment</string>
 			<key>Key</key>
 			<string>server_url</string>
 			<key>DefaultValue</key>
 			<string>https://prod.acciontv.com/api/</string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
+			<key>Titles</key>
+			<array>
+				<string>Testing</string>
+				<string>Staging</string>
+				<string>Production</string>
+				<string>Development</string>
+				<string>Local</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>https://testing.acciontv.com/api/</string>
+				<string>https://staging.acciontv.com/api/</string>
+				<string>https://prod.acciontv.com/api/</string>
+				<string>https://development.acciontv.com/api/</string>
+				<string>http://10.10.31.146:3000/api/</string>
+			</array>
 		</dict>
 		<dict>
 			<key>Type</key>
