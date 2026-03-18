@@ -30,6 +30,15 @@ class SettingsBundleHelper {
         UserDefaults.standard.set(version, forKey: "version_preference")
     }
     
+    class func getEnvironment() -> String {
+        let url = UserDefaults.standard.string(forKey: SettingsBundleKeys.ServerURL) ?? ""
+        if url.contains("testing")  { return "Testing" }
+        if url.contains("staging")  { return "Staging" }
+        if url.contains("development") { return "Development" }
+        if url.contains("10.10.31") { return "Local" }
+        return "Production"
+    }
+    
     struct SettingsBundleKeys {
         static let ServerURL = "server_url"
         static let Camera = "camera_enabled"

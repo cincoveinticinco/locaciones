@@ -22,6 +22,8 @@ class LoginWebViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        applyEnvironmentStyle()
+        
         print("API URL:", Urls.Login)
         
         let url = URL(string: Urls.Login)
@@ -49,6 +51,38 @@ class LoginWebViewController: UIViewController {
     
     @IBAction func closeLoginWebView(_ sender: UIButton) {
         performSegue(withIdentifier: Identifier.GoBack, sender: self)
+    }
+    
+    // MARK: - Environment Style
+    private func applyEnvironmentStyle() {
+        let env = SettingsBundleHelper.getEnvironment()
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+        let build   = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
+
+        switch env {
+        case "Testing":
+            self.view.backgroundColor = UIColor(red: 39/255,  green: 174/255, blue: 96/255,  alpha: 1)
+        case "Staging":
+            self.view.backgroundColor = UIColor(red: 41/255,  green: 128/255, blue: 185/255, alpha: 1)
+        case "Development":
+            self.view.backgroundColor = UIColor(red: 230/255, green: 126/255, blue: 34/255,  alpha: 1)
+        case "Local":
+            self.view.backgroundColor = UIColor(red: 142/255, green: 68/255,  blue: 173/255, alpha: 1)
+        default:
+            return // Production: sin cambio
+        }
+
+        let envLabel = UILabel()
+        envLabel.text = "VERSION \(version) (\(build)) — \(env)"
+        envLabel.font = UIFont(name: "Cabin-Medium", size: 12) ?? UIFont.systemFont(ofSize: 12, weight: .medium)
+        envLabel.textColor = UIColor.white
+        envLabel.textAlignment = .center
+        envLabel.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(envLabel)
+        NSLayoutConstraint.activate([
+            envLabel.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -12),
+            envLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+        ])
     }
     
 }
