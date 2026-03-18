@@ -14,7 +14,7 @@
 			<key>Key</key>
 			<string>server_url</string>
 			<key>DefaultValue</key>
-			<string>https://prod.acciontv.com/api/</string>
+			<string>https://prod.acciontv.com</string>
 			<key>Titles</key>
 			<array>
 				<string>Testing</string>
@@ -25,11 +25,11 @@
 			</array>
 			<key>Values</key>
 			<array>
-				<string>https://testing.acciontv.com/api/</string>
-				<string>https://staging.acciontv.com/api/</string>
-				<string>https://prod.acciontv.com/api/</string>
-				<string>https://development.acciontv.com/api/</string>
-				<string>http://10.10.31.146:3000/api/</string>
+				<string>https://testing.acciontv.com</string>
+				<string>https://staging.acciontv.com</string>
+				<string>https://prod.acciontv.com</string>
+				<string>https://development.acciontv.com</string>
+				<string>http://10.10.31.146:3000</string>
 			</array>
 		</dict>
 		<dict>

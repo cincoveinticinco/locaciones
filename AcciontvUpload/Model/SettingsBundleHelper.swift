@@ -12,7 +12,7 @@ class SettingsBundleHelper {
     
     class func checkAndExecuteSettings() {
         if (UserDefaults.standard.string(forKey: SettingsBundleKeys.ServerURL) == nil) {
-            UserDefaults.standard.set("https://prod.acciontv.com/api/", forKey: SettingsBundleKeys.ServerURL)
+            UserDefaults.standard.set("https://prod.acciontv.com", forKey: SettingsBundleKeys.ServerURL)
         }
 //        if UserDefaults.standard.bool(forKey: SettingsBundleKeys.ServerURL) {
 //            UserDefaults.standard.set(false, forKey: SettingsBundleKeys.ServerURL)
