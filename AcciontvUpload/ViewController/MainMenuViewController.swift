@@ -54,7 +54,7 @@ class MainMenuViewController: UIViewController {
     
     // MARK: - Miscellaneous
     func startRequest() {
-        let accionRequest = AccionRequest("POST", [AccionRequest.AccionKey.Session:token!], "/api/admin/saml/validate_session")
+        let accionRequest = AccionRequest("POST", [AccionRequest.AccionKey.Session:token!], "/api/saml/validate_session")
         let req = accionRequest.setupRequest()
         accionRequest.fetchData(request: req, completionHander: {
             (response: JSON) in
@@ -117,7 +117,7 @@ class MainMenuViewController: UIViewController {
     
     func closeSession() {
         let serverURL = UserDefaults.standard.string(forKey: "server_url")
-        let url = URL(string: "\(serverURL!)/api/admin/saml/logout/\(token!)")!
+        let url = URL(string: "\(serverURL!)/api/saml/logout/\(token!)")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         LocationData.data.deleteJSONDataFromDisk();

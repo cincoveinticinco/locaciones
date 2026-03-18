@@ -84,7 +84,7 @@ class LoginWebViewController: UIViewController {
             envLabel.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -12),
             envLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
         ])
-        self.view.bringSubview(toFront: envLabel)
+        self.view.insertSubview(envLabel, aboveSubview: wkLoginWebView)
     }
     
 }
@@ -228,7 +228,7 @@ extension LoginWebViewController {
     }
     
     struct Urls {
-        static let Login =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/admin/saml/init"
+        static let Login =  UserDefaults.standard.string(forKey: SettingsBundleHelper.SettingsBundleKeys.ServerURL)! + "/api/saml/init"
     }
 }
 
