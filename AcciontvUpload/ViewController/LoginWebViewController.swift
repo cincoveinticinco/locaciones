@@ -21,9 +21,7 @@ class LoginWebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        applyEnvironmentStyle()
-        
+
         print("API URL:", Urls.Login)
         
         let url = URL(string: Urls.Login)
@@ -33,10 +31,16 @@ class LoginWebViewController: UIViewController {
         activityView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         activityView?.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.whiteLarge
         activityView?.color = #colorLiteral(red: 0.9538540244, green: 0.2200518847, blue: 0.3077117205, alpha: 1)
-        activityView?.center = self.view.center
+        activityView?.translatesAutoresizingMaskIntoConstraints = false
         activityView?.startAnimating()
         self.view.addSubview(activityView!)
+        NSLayoutConstraint.activate([
+            activityView!.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            activityView!.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+        ])
         
+        applyEnvironmentStyle()
+
         wkLoginWebView.isHidden = true
         wkLoginWebView.navigationDelegate = self
         wkLoginWebView.load(request)
@@ -53,7 +57,7 @@ class LoginWebViewController: UIViewController {
     @IBAction func closeLoginWebView(_ sender: UIButton) {
         performSegue(withIdentifier: Identifier.GoBack, sender: self)
     }
-    
+
     // MARK: - Environment Style
     private func applyEnvironmentStyle() {
         let env = SettingsBundleHelper.getEnvironment()
@@ -70,7 +74,7 @@ class LoginWebViewController: UIViewController {
         case "Local":
             self.view.backgroundColor = UIColor(red: 142/255, green: 68/255,  blue: 173/255, alpha: 1)
         default:
-            return // Production: sin cambio
+            return
         }
 
         let envLabel = UILabel()
@@ -80,13 +84,13 @@ class LoginWebViewController: UIViewController {
         envLabel.textAlignment = .center
         envLabel.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(envLabel)
+        self.view.insertSubview(envLabel, aboveSubview: wkLoginWebView)
         NSLayoutConstraint.activate([
             envLabel.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -12),
             envLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
         ])
-        self.view.insertSubview(envLabel, aboveSubview: wkLoginWebView)
     }
-    
+
 }
 
 // MARK: - WK Web View Delegate
