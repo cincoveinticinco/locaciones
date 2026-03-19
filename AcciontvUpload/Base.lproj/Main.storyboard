@@ -2615,6 +2615,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="mQM-Ji-9ce"/>
                     <connections>
+                        <outlet property="loginButton" destination="Tt0-aG-k4k" id="R19-8N-5C9"/>
                         <outlet property="versionLbl" destination="tQS-cF-CwK" id="a4y-vv-nv1"/>
                         <segue destination="7UE-6a-nzq" kind="presentation" identifier="Login Webview" animates="NO" modalPresentationStyle="fullScreen" id="hSu-Dd-91c"/>
                         <segue destination="Esv-Un-r07" kind="presentation" identifier="Go Home" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="x0n-lm-a6K"/>
